@@ -125,7 +125,7 @@ async def gen_thumb(videoid, chat_id):
         try:
             draw.text(
                 (20, 0.1),
-                f"DNS  MUSIC",
+                f"Devil Server",
                 fill="white",
                 stroke_width=4,
                 stroke_fill="black",
@@ -265,7 +265,7 @@ async def gen_qthumb(videoid, chat_id):
         try:
             draw.text(
                 (20, 0.1),
-                "DNS MUSIC",
+                "Devil Server",
                 fill="white",
                 stroke_width=5,
                 stroke_fill="black",
