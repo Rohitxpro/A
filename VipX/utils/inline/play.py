@@ -267,7 +267,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/HINDI_FRIENDS_CHATTING_ROOM",
+              url="https://t.me/about_devil30",
             ),
         ],
     ]
@@ -534,7 +534,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/HINDI_FRIENDS_CHATTING_ROOM",
+              url="https://t.me/new_devil_world",
             ),
         ],
     ]
@@ -601,7 +601,7 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/HINDI_FRIENDS_CHATTING_ROOM",
+              url="https://t.me/new_devil_world",
             ),
         ],
     ]
@@ -665,7 +665,7 @@ def telegram_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/HINDI_FRIENDS_CHATTING_ROOM",
+              url="https://t.me/new_devil_world",
             ),
         ],
     ]
@@ -728,7 +728,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/HINDI_FRIENDS_CHATTING_ROOM",
+              url="https://t.me/new_devil_world",
             ),
         ],
     ]
@@ -981,7 +981,7 @@ def queue_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/HINDI_FRIENDS_CHATTING_ROOM",
+              url="https://t.me/new_devil_world",
             ),
         ],
     ]
