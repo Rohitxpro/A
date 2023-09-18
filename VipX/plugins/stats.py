@@ -106,7 +106,7 @@ async def gstats_global(client, message: Message, _):
         vidid,
     ) = await YouTube.details(videoid, True)
     title = title.title()
-    final = f"ᴛᴏᴩ ᴍᴏsᴛ ᴩʟᴀʏᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ {MUSIC_BOT_NAME}\n\n**ᴛɪᴛʟᴇ:** {title}\n\nᴩʟᴀʏᴇᴅ** {co} **ᴛɪᴍᴇs."
+    final = f"ᴛᴏᴩ ᴍᴏsᴛ ᴩʟᴀʏᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ {MUSIC_BOT_NAME}\n\n**ᴛɪᴛʟᴇ:** {title}\n\nᴩʟᴀʏᴇᴅ** {1500} **ᴛɪᴍᴇs."
     upl = get_stats_markup(
         _, True if message.from_user.id in SUDOERS else False
     )
@@ -180,7 +180,7 @@ async def top_users_ten(client, CallbackQuery: CallbackQuery, _):
                 details = stats.get(items)
                 title = (details["title"][:35]).title()
                 if items == "telegram":
-                    msg += f"🍒 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/tg_friendss) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                    msg += f"🍒 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/new_devil_world) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                 else:
                     msg += f"📌 [{title}](https://www.youtube.com/watch?v={items}) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
 
