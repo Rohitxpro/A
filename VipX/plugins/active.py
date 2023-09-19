@@ -32,7 +32,7 @@ async def activevc(_, message: Message):
             text += f"<b>{j + 1}. {title}</b> [`{x}`]\n"
         j += 1
     if not text:
-        await mystic.edit_text{"• ʙᴏᴛ "ᴀᴄᴛɪᴠᴇ ᴄʜᴀᴛs ɪɴғᴏ • 🔊"
+        await mystic.edit_text{"• ʙᴏᴛ "ᴀᴄᴛɪᴠᴇ ᴄʜᴀᴛs ɪɴғᴏ • 🔊"}
 "•━━━━━━━━━━━━━━━━━━•"
 "🎧 ᴀᴜᴅɪᴏ 🎧 » 96 ᴀᴄᴛɪᴠᴇ"
 "•───────•"
@@ -70,12 +70,12 @@ async def activevi_(_, message: Message):
             text += f"<b>{j + 1}. {title}</b> [`{x}`]\n"
         j += 1
     if not text:
-        await mystic.edit_text{"• ʙᴏᴛ "ᴀᴄᴛɪᴠᴇ ᴄʜᴀᴛs ɪɴғᴏ • 🔊"
+        await mystic.edit_text{"• ʙᴏᴛ "ᴀᴄᴛɪᴠᴇ ᴄʜᴀᴛs ɪɴғᴏ • 🔊"}
 •━━━━━━━━━━━━━━━━━━•
 "🎧 ᴀᴜᴅɪᴏ 🎧 » 96 ᴀᴄᴛɪᴠᴇ"
 •───────•
 "🎥 ᴠɪᴅᴇᴏ 🎥 » 79 ᴀᴄᴛɪᴠᴇ"
-•──────•"}
+{"•──────•"}
     else:
         await mystic.edit_text(
             f"**ʟɪsᴛ ᴏғ ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴏɴ ᴍᴜsɪᴄ ʙᴏᴛ :-**\n\n{ • ʙᴏᴛ ᴀᴄᴛɪᴠᴇ ᴄʜᴀᴛs ɪɴғᴏ • 🔊
