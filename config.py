@@ -170,22 +170,22 @@ START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/23e44e7c0ef7fe1
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/99a6083b067d4a8427edf.jpg",
+    "https://graph.org/file/8087aae16aa71f5b964b7.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/2f80c0245255aefb01a1b.jpg",
+    "https://graph.org/file/0b039d34a12c102b646d5.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://telegra.ph/file/2f80c0245255aefb01a1b.jpg",
+    "https://graph.org/file/1ae104dc5c7b68e212a9b.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://telegra.ph/file/2f80c0245255aefb01a1b.jpg",
+    "https://graph.org/file/c5706acd88b8e5c997119.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
